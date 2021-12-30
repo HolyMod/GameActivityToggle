@@ -1,0 +1,15 @@
+{
+    "name": "GameActivityToggle",
+    "author": "Strencher, Egrodo",
+    "version": "1.0.0",
+    "description": "Simple plugin that adds the \"display game activity\" setting on the home toolbar so you can toggle it easier when you don't want your friends knowing how much you play video games.",
+    "settings": [
+        {
+            "type": "switch",
+            "name": "Play Sound",
+            "note": "Plays a sound when Enabling/Disabling the GameActivity with the button.",
+            "id": "playSound",
+            "value": true
+        }
+    ]
+}
